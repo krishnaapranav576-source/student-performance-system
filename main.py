@@ -26,6 +26,7 @@ while True:
     print("6. Analytics")
     print("7. Save Students")
     print("8. Exit")
+    print("9. About")
 
     choice = input("\nEnter your choice: ")
 
@@ -114,7 +115,9 @@ while True:
 
             print("Students saved successfully.")
             print("Thank you for using Student Performance System!")
-
+        elif choice == "9":
+            print("Student Performance System")
+            print("Built using Python")
             break
 
 
